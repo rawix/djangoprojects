@@ -1,0 +1,83 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+	<meta http-equiv=Content-Type content=text/html; charset=utf-8 />
+	<title>My Summary</title>
+	<link rel="stylesheet" type="text/css" href="/mcss"  /> 
+</head>
+
+<body>
+<div class="logotipo">
+	<a href="/"><image src="/imagenes/banner.jpg" ></a>
+</div>
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+	<li><a href="/">Home</a>
+	<li><a href="/usuarios">Users</a>
+	<li><a href="/noteros">Noters</a>
+	<li><a href="/micronoteros">My Noters</a>
+	<li><a href="/update">Update</a>
+	<li><a href="/conf">Configuration</a>
+	<li><a href="/conf/skin">CSS settings</a>
+	<li><a href="/admin/">Admin</a>
+	<li><a href="/admin/logout/">Log out</a>
+</ul>
+
+
+<!-- Main content -->
+<br><br><br><br><br>
+<h1>Summary</h1>
+
+
+{% block content %}
+
+{% if usuario %}
+	
+	<h2>Welcome {{ usuario }}</h2><hr>
+
+	{% if lista %}
+		<h3>Users of my application: </h3>
+		<p>If you want to copy the style sheet to any user, click</p>
+		{% for u in lista %}
+		<form action="/conf/skin" method="post">
+		<li> <input type="submit" value="{{ u.username }}" name="usu"></li>
+		</form>
+		{% endfor %}
+	
+
+
+	<form method="post" action="/conf/skin">
+	{% csrf_token %}
+
+
+	<form method="post" action="">
+	{% csrf_token %}
+	<p>Modify what you want from your CSS</p>
+	</form>
+	
+
+	<form action="/conf/skin" method="post">
+		<input type="submit" value="Change">
+		<textarea cols="20" rows="10" name="cssnuevo" >{{ css }}</textarea>
+    	</form>
+	{% endif %}
+
+	{% if msg %}
+		
+		<h3>{{ msg }}</h3>
+	{% endif %}
+	
+{% endif %}
+
+{% endblock %}
+
+
+<!-- Firma y fecha de la página -->
+<address>Created by Rawan Khozouz, Baza December 2010</address>
+
+</body>
+</html>
+

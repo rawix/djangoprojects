@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if form.errors %}
+<p>Your username didn't match. Please try again.</p>
+{% endif %}
+
+<html><body>
+	<form method="post" action="/logout">
+	<input type="submit" value="logout" />
+	</form>
+</body></html>
+
+{% endblock %}
+
