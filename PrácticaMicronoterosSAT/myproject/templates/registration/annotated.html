@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="post" action="{% url django.contrib.auth.views.login %}">
+<center>
+
+    <h1>{{ user }}</h1>
+    <h1>{{ resource }}</h1>
+    <h1>{{ body }}</h1>
+
+</center>
+
+<input type="submit" value="annotated" />
+<input type="hidden" name="next" value="{{ next }}" />
+{% endblock %}
+

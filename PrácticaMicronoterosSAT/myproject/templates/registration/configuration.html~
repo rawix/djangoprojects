@@ -1,0 +1,69 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+	<meta http-equiv=Content-Type content=text/html; charset=utf-8 />
+	<title>My Summary</title>
+	<link rel="stylesheet" type="text/css" href="/mcss"  /> 
+</head>
+
+<body>
+<div class="logotipo">
+	<a href="/"><image src="/imagenes/banner.jpg" ></a>
+</div>
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+	<li><a href="/">Home</a>
+	<li><a href="/usuarios">Users</a>
+	<li><a href="/noteros">Noters</a>
+	<li><a href="/micronoteros">My Noters</a>
+	<li><a href="/update">Update</a>
+	<li><a href="/conf">Configuration</a>
+	<li><a href="/conf/skin">CSS settings</a>
+	<li><a href="/admin/">Admin</a>
+	<li><a href="/admin/logout/">Log out</a>
+</ul>
+
+
+<!-- Main content -->
+<br><br><br><br><br>
+<h1>Summary</h1>
+
+{% block content %}
+
+<!-- Datos para la configuracion del usuario -->
+{% if usuario %}
+
+<center>	
+	<h2>Welcome {{ usuario }}</h2>
+<form method="post" action="/conf">
+{% csrf_token %}
+
+
+	<form action="/conf" method="post">
+        <p>Public name: <input type="text" name="nombre"></p>
+        <p>Password: <input type="password" name="pass"></p>
+        <p>Check: <input type="password" name="check"></p>
+        <p>Language (es/en): <input type="text" name="idioma"></p>
+        <input type="submit" value="Change">
+	<input type="reset" value="Reset">
+ 
+        </form>
+
+	{% if msg %}
+	<h2>{{ msg }}</h2>
+	{% endif %}
+</center>
+
+{% endif %}
+{% endblock %}
+
+
+<!-- Firma y fecha de la página -->
+<address>Created by Rawan Khozouz, Baza December 2010</address>
+
+</body>
+</html>
+

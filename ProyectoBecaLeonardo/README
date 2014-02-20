@@ -1,0 +1,15 @@
+Explanation of directory content
+================================
+URL:
+rkhozouz.alwaysdata.net
+
+- vocabulary :
+	
+	 Application that will make the study easier. The application will give you a list contents all vocabulary words of all units. The application make the searching faster when you need to check the meaning, the acronym or the description of any word. This information will be obtained from the xml files created for other leonardo students with articles, images...
+
+	 A short description of how to use it is showed in the home page of the web application.
+
+	 Admin notes: 
+        Vocabulary words: You can edit/remove/add words in /data/vocabulary. For load all the words use the url: http://ip:port/loadVocabulary/. All the words stored will be removed and then all the files with the words will be reloaded and stored.
+
+	 	Admin view: You can see the admin view with http://ip:port/admin/ or clicling in Admin login at the end of the webpage.

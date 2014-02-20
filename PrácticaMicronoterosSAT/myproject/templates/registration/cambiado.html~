@@ -1,0 +1,50 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+	<meta http-equiv=Content-Type content=text/html; charset=utf-8 />
+	<title>Mi Resumen</title>
+	<link rel="stylesheet" type="text/css" href="/mcss"  /> 
+</head>
+
+<body>
+<div class="logotipo">
+	<a href="/"><image src="/imagenes/banner.jpg" ></a>
+</div>
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+	<li><a href="/">Página principal</a>
+	<li><a href="/noteros/micronotero">Micronotero</a>
+	<li><a href="/usuarios/usuario">Usuario</a>
+	<li><a href="/usuarios/usuario/feed">Canal RSS</a>
+	<li><a href="/micronoteros">Micronoteros</a>
+	<li><a href="/update">Actualizacion</a>
+	<li><a href="/conf">Configuracion</a>
+	<li><a href="/conf/skin">Configuracion del CSS</a>
+	<li><a href="/admin/">Admin</a>
+</ul>
+
+<!-- Contenido principal -->
+<br><br><br><br><br>
+<h1>Microresumen</h1>
+
+
+{% block content %}
+
+<!-- Datos para la configuracion del usuario -->
+
+	<h2>Cambios realizados exitosamente.</h2>
+
+
+
+{% endblock %}
+
+
+<!-- Firma y fecha de la página -->
+<address>Creada por Rawan Khozouz, Baza Diciembre 2010</address>
+
+</body>
+</html>
+

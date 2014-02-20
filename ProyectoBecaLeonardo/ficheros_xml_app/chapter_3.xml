@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contents number="3" title="Inside the box">
+<!-- word 1 -->
+<vocabulary>
+	<word>Central Processing Unit</word>
+	<acronym>CPU</acronym>
+	<description>The central processing unit (CPU, occasionally central processor unit) is the hardware within a computer system which carries out the instructions of a computer program by performing the basic arithmetical, logical, and input/output operations of the system. The term has been in use in the computer industry at least since the early 1960s. The form, design, and implementation of CPUs have changed over the course of their history, but their fundamental operation remains much the same.</description>
+	<link>http://en.wikipedia.org/wiki/Central_processing_unit</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Intel_80486DX2_top.jpg/220px-Intel_80486DX2_top.jpg</image>
+</vocabulary>
+
+<!-- word 2 -->
+<vocabulary>
+    <word>Arithmetic and logic unit</word>
+    <acronym>ALU</acronym>
+    <description>In computing, an arithmetic and logic unit (ALU) is a digital circuit that performs arithmetic and logical operations. The ALU is a fundamental building block of the central processing unit of a computer, and even the simplest microprocessors contain one for purposes such as maintaining timers. The processors found inside modern CPUs and graphics processing units (GPUs) accommodate very powerful and very complex ALUs; a single component may contain a number of ALUs.</description>
+	<link>http://en.wikipedia.org/wiki/Arithmetic_and_logic_unit</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/ALU_symbol.svg/220px-ALU_symbol.svg.png</image>
+</vocabulary>
+
+<!-- word 3 -->
+<vocabulary>
+    <word>Word (computer architecture)</word>
+    <acronym>None</acronym>
+    <description>In computing, word is a term for the natural unit of data used by a particular processor design. A word is basically a fixed sized group of bits that are handled as a unit by the instruction set and/or hardware of the processor. The number of bits in a word (the word size, word width, or word length) is an important characteristic of a specific processor design or computer architecture.
+The size of a word is reflected in many aspects of a computer's structure and operation; the majority of the registers in a processor are usually word sized and the largest piece of data that can be transferred to and from the working memory in a single operation is a word in many (not all) architectures. The largest possible address size, used to designate a location in memory, is typically a hardware word (in other words, the full-sized natural word of the processor, as opposed to any other definition used).</description>
+	<link>http://en.wikipedia.org/wiki/Word_%28computer_architecture%29</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 4 -->
+<vocabulary>
+    <word>MegaHertz</word>
+    <acronym>MHz</acronym>
+    <description>The hertz (symbol Hz) is the SI unit of frequency defined as the number of cycles per second of a periodic phenomenon.
+In computing, most central processing units (CPU) are labeled in terms of their clock rate expressed in megahertz or gigahertz (10^6 or 10^9 hertz, respectively). This number refers to the frequency of the CPU's master clock signal ("clock rate").</description>
+	<link>http://en.wikipedia.org/wiki/MegaHertz</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/FrequencyAnimation.gif/149px-FrequencyAnimation.gif</image>
+</vocabulary>
+
+<!-- word 5 -->
+<vocabulary>
+    <word>GigaHertz</word>
+    <acronym>GHz</acronym>
+    <description>The hertz (symbol Hz) is the SI unit of frequency defined as the number of cycles per second of a periodic phenomenon.
+In computing, most central processing units (CPU) are labeled in terms of their clock rate expressed in megahertz or gigahertz (10^6 or 10^9 hertz, respectively). This number refers to the frequency of the CPU's master clock signal ("clock rate").</description>
+	<link>http://en.wikipedia.org/wiki/Gigahertz</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/5/59/FrequencyAnimation.gif/149px-FrequencyAnimation.gif</image>
+</vocabulary>
+
+<!-- word 6 -->
+<vocabulary>
+    <word>Computer architecture</word>
+    <acronym>None</acronym>
+    <description>In computer science and engineering, computer architecture is the practical art of defining the structure and relationship of the subcomponents of a computer. As in designing the architecture of buildings, architecture can comprise many levels of information. The highest level of the definition conveys the concepts implement, whereas in building architecture this over-view is normally visual, computer architecture is primarily logical, positing a conceptual system that serves a particular purpose. In both instances (building and computer), many levels of detail are required to completely specify a given implementation. </description>
+	<link>http://en.wikipedia.org/wiki/Computer_architecture</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 7 -->
+<vocabulary>
+    <word>x86</word>
+    <acronym>None</acronym>
+    <description>x86 is a series of computer microprocessor instruction set architectures based on the Intel 8086 CPU. The 8086 was introduced during 1978 as a fully 16-bit extension of Intel's 8-bit based 8080 microprocessor and also introduced memory segmentation to overcome the 16-bit addressing barrier of such designs. The term x86 derived from the fact that early successors to the 8086 also had names ending with "86". Many additions and extensions have been added to the x86 instruction set over the years, almost consistently with full backward compatibility.[3] The architecture has been implemented in processors from Intel, Cyrix, Advanced Micro Devices, VIA, and many other companies.</description>
+	<link>http://en.wikipedia.org/wiki/X86</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 8 -->
+<vocabulary>
+    <word>Pentium</word>
+    <acronym>None</acronym>
+    <description>Pentium is a brand used for a series of x86-compatible microprocessors produced by Intel. In its most current form, a Pentium processor is a consumer-level product with a two-star rating, above the low-end Atom and Celeron products but below the faster Core i3, i5 and i7 lines as well as the high-end Xeon processors.</description>
+	<link>http://en.wikipedia.org/wiki/Pentium</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 9 -->
+<vocabulary>
+    <word>PowerPC G4</word>
+    <acronym>G4</acronym>
+    <description>PowerPC G4 is a designation used by Apple Computer to describe a fourth generation of 32-bit PowerPC microprocessors. Apple has applied this name to various (though closely related) processor models from Freescale, a former part of Motorola.</description>
+	<link>http://en.wikipedia.org/wiki/PowerPC_G4</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 10 -->
+<vocabulary>
+    <word>PowerPC G5</word>
+    <acronym>G5</acronym>
+    <description>The PowerPC 970 (also called PowerPC G5) is a high performance microprocessor with 64-bit RISC architecture, belongs to the PowerPC family, designed and manufactured by IBM in 2002. The PowerPC 970 is constructed using 130nm technology, and the 970FX and 970MP, 90 nm. They contain more than 58 million transistors. They are based on the development of the IBM Power4 and include two engines IBM vector VMX, instead of the unit used in the PowerPC AltiVec 7400. Additionally, they are capable of processing 32-bit instructions in native mode.
+It has outstanding performance compared with other processors and memory addressing capability up to 8 GB.</description>
+	<link>http://en.wikipedia.org/wiki/PowerPC_G5</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 11 -->
+<vocabulary>
+    <word>Parallel ATA</word>
+    <acronym>ATA/IDE</acronym>
+    <description>Parallel ATA (PATA), originally AT Attachment, is an interface standard for the connection of storage devices such as hard disks, floppy drives, and optical disc drives in computers. 
+The ATA interface itself evolved in several stages from Western Digital's original Integrated Drive Electronics (IDE) interface. As a result, many near-synonyms for ATA/ATAPI and its previous incarnations are still in common informal use. After the introduction of Serial ATA in 2003, the original ATA was renamed Parallel ATA, PATA for short.
+Parallel ATA cables have a maximum allowable length of only 18 in (457 mm). Because of this limit, the technology normally appears as an internal computer storage interface. For many years ATA provided the most common and the least expensive interface for this application. It has largely been replaced by Serial ATA (SATA) in newer systems.</description>
+	<link>http://en.wikipedia.org/wiki/Parallel_ATA</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 12 -->
+<vocabulary>
+    <word>Serial ATA</word>
+    <acronym>SATA</acronym>
+    <description>Serial ATA (SATA or Serial AT Attachment) is a computer bus interface for connecting host bus adapters to mass storage devices such as hard disk drives and optical drives. Serial ATA was designed to replace the older parallel ATA (PATA) standard (often called by the old name IDE), offering several advantages over the older interface: reduced cable size and cost (7 conductors instead of 40), native hot swapping, faster data transfer through higher signalling rates, and more efficient transfer through an (optional) I/O queuing protocol.</description>
+	<link>http://en.wikipedia.org/wiki/Serial_ATA</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SATA_ports.jpg/200px-SATA_ports.jpg</image>
+</vocabulary>
+
+<!-- word 13 -->
+<vocabulary>
+    <word>IEEE 1394 interface</word>
+    <acronym>FireWire</acronym>
+    <description>The IEEE 1394 interface, developed in late 1980s and early 1990s by Apple as FireWire, is a serial bus interface standard for high-speed communications and isochronous real-time data transfer. The 1394 interface is comparable with USB and often those two technologies are considered together, though USB has more market share.</description>
+	<link>http://en.wikipedia.org/wiki/FireWire</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 14 -->
+<vocabulary>
+    <word>Universal Serial Bus</word>
+    <acronym>USB</acronym>
+    <description>Universal Serial Bus (USB) is an industry standard developed in the mid-1990s that defines the cables, connectors and communications protocols used in a bus for connection, communication and power supply between computers and electronic devices.
+USB was designed to standardize the connection of computer peripherals, such as keyboards, pointing devices, digital cameras, printers, portable media players, disk drives and network adapters to personal computers, both to communicate and to supply electric power. It has become commonplace on other devices, such as smartphones, PDAs and video game consoles. USB has effectively replaced a variety of earlier interfaces, such as serial and parallel ports, as well as separate power chargers for portable devices.</description>
+	<link>http://en.wikipedia.org/wiki/USB</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 15 -->
+<vocabulary>
+    <word>IBM Personal System/2</word>
+    <acronym>PS/2</acronym>
+    <description>The Personal System/2 or PS/2 was IBM's third generation of personal computers released in 1987. The PS/2 line was created by IBM in an attempt to recapture control of the PC market by introducing an advanced yet proprietary architecture. IBM's considerable market presence plus the reliability of the PS/2 ensured that the systems would sell in relatively large numbers, especially to large businesses. However the other major manufacturers balked at IBM's licensing terms to develop and sell compatible hardware, particularly as the demanded royalties were on a per machine basis. Also the evolving Wintel architecture was seeing a period of dramatic reductions in price, and so these developments prevented the PS/2 from returning control of the PC market to IBM.</description>
+	<link>http://en.wikipedia.org/wiki/PS/2</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/IBM_PS2_MCA_Model_55_SX%2C_front.jpg/200px-IBM_PS2_MCA_Model_55_SX%2C_front.jpg</image>
+</vocabulary>
+
+<!-- word 16 -->
+<vocabulary>
+    <word>Serial communication</word>
+    <acronym>None</acronym>
+    <description>In telecommunication and computer science, serial communication is the process of sending data one bit at a time, sequentially, over a communication channel or computer bus. This is in contrast to parallel communication, where several bits are sent as a whole, on a link with several parallel channels. Serial communication is used for all long-haul communication and most computer networks, where the cost of cable and synchronization difficulties make parallel communication impractical. Serial computer buses are becoming more common even at shorter distances, as improved signal integrity and transmission speeds in newer serial technologies have begun to outweigh the parallel bus's advantage of simplicity (no need for serializer and deserializer, or SerDes) and to outstrip its disadvantages</description>
+	<link>http://en.wikipedia.org/wiki/Serial_communication</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 17 -->
+<vocabulary>
+    <word>Parallel communication</word>
+    <acronym>None</acronym>
+    <description>In telecommunication and computer science, parallel communication is a method of conveying multiple binary digits (bits) simultaneously. It contrasts with serial communication, which conveys only a single bit at a time; this distinction is one way of characterizing a communications link.
+The basic difference between a parallel and a serial communication channel is the number of electrical conductors used at the physical layer to convey bits. Parallel communication implies more than one such conductor. For example, an 8-bit parallel channel will convey eight bits (or a byte) simultaneously, whereas a serial channel would convey those same bits sequentially, one at a time. If both channels operated at the same clock speed, the parallel channel would be eight times faster. A parallel channel may have additional conductors for other signals, such as a clock signal to pace the flow of data, a signal to control the direction of data flow, and handshaking signals.</description>
+	<link>http://en.wikipedia.org/wiki/Parallel_communication</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 18 -->
+<vocabulary>
+    <word>Multi-thread</word>
+    <acronym>None</acronym>
+    <description>In computer science, a thread of execution is the smallest unit of processing that can be scheduled by an operating system. A thread is a lightweight process. The implementation of threads and processes differs from one operating system to another, but in most cases, a thread is contained inside a process. Multiple threads can exist within the same process and share resources such as memory, while different processes do not share these resources. In particular, the threads of a process share the latter's instructions (its code) and its context.</description>
+	<link>http://en.wikipedia.org/wiki/Thread_%28computing%29</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Multithreaded_process.svg/220px-Multithreaded_process.svg.png</image>
+</vocabulary>
+
+<!-- word 19 -->
+<vocabulary>
+    <word>Multiprocessor</word>
+    <acronym>None</acronym>
+    <description>A multiprocessor is a tightly coupled computer system having two or more processing units each sharing main memory and peripherals, in order to simultaneously process programs.</description>
+	<link>http://en.wikipedia.org/wiki/Multiprocessor</link>
+	<image>None</image>
+</vocabulary>
+
+<!-- word 20 -->
+<vocabulary>
+    <word>Multi-core processor</word>
+    <acronym>None</acronym>
+    <description>A multi-core processor is a single computing component with two or more independent actual central processing units (called "cores"), which are the units that read and execute program instructions. The instructions are ordinary CPU instructions such as add, move data, and branch, but the multiple cores can run multiple instructions at the same time, increasing overall speed for programs amenable to parallel computing. Manufacturers typically integrate the cores onto a single integrated circuit die (known as a chip multiprocessor or CMP), or onto multiple dies in a single chip package.</description>
+	<link>http://en.wikipedia.org/wiki/Multi-core_processor</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dual_Core_Generic.svg/190px-Dual_Core_Generic.svg.png</image>
+</vocabulary>
+
+<!-- word 21 -->
+<vocabulary>
+    <word>CPU socket</word>
+    <acronym>None</acronym>
+    <description>The sockets are spaces or slots on the motherboard where different components are inserted as the RAM sockets, sockets for expansion boards or other microprocessor socket, etc..</description>
+	<link>http://en.wikipedia.org/wiki/CPU_socket</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/CPU_Socket_775_T.jpg/250px-CPU_Socket_775_T.jpg</image>
+</vocabulary>
+
+<!-- word 22 -->
+<vocabulary>
+    <word>Bus</word>
+    <acronym>None</acronym>
+    <description>In computer architecture, a bus is a subsystem that transfers data between components inside a computer, or between computers.
+Early computer buses were parallel electrical wires with multiple connections, but the term is now used for any physical arrangement that provides the same logical functionality as a parallel electrical bus. Modern computer buses can use both parallel and bit serial connections, and can be wired in either a multidrop (electrical parallel) or daisy chain topology, or connected by switched hubs, as in the case of USB.</description>
+	<link>http://en.wikipedia.org/wiki/Bus_(computing)</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/PCIExpress.jpg/250px-PCIExpress.jpg</image>
+</vocabulary>
+</contents>

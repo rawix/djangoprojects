@@ -1,0 +1,141 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+	<meta http-equiv=Content-Type content=text/html; charset=utf-8 />
+	<title>Mi Resumen</title>
+	<link rel="stylesheet" type="text/css" href="/mcss"  /> 
+</head>
+
+<body>
+<div class="logotipo">
+	<a href="/"><image src="/imagenes/banner.jpg" ></a>
+</div>
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+	<li><a href="/">Inicio</a>
+	<li><a href="/usuarios">Usuario</a>
+	<li><a href="/noteros">Micronoteros</a>
+	<li><a href="/micronoteros">Mis Micronoteros</a>
+	<li><a href="/update">Actualizacion</a>
+	<li><a href="/conf">Configuracion</a>
+	<li><a href="/conf/skin">Configuracion del CSS</a>
+	<li><a href="/admin/">Admin</a>
+	<li><a href="/admin/logout/">Cerrar sesion</a>
+
+</ul>
+
+<!-- Contenido principal -->
+<br><br><br><br><br>
+<h1>Microresumen</h1>
+
+
+{% block content %}
+
+{% if usuario %}
+
+	
+	<h2>Bienvenid@ {{ usuario }}</h2><hr>
+
+	{% if msg %}
+	<h4>{{ msg }}</h4><br><hr>
+	{% endif %}
+
+
+	<!-- Listado de las micronotas de un micronotero -->	
+	{% if micronotas %}
+		{% if micronotero %}
+		<h3>  Micronotas del micronotero: {{ micronotero }}  </h3><hr>
+		{% endif %}
+
+	    	{% for m in micronotas %}
+		<li>Micronoticia: {{ m.title }} <br> Fecha: {{ m.pubdate }} Enlace:  <a href="{{ m.link }}">{{ m.link }}</a></li>
+	    	{% endfor %}
+	{% endif %}
+
+
+	{% if lista %}
+		<h3>Su lista de Micronoteros: </h3>
+		{% for u in lista %}
+		<li><a href="http://localhost:1234/noteros/{{ u.micronotero }}">{{ u.micronotero }}</a></li>
+		{% endfor %}
+	{% endif %}
+
+	
+	{% if body %}	
+		{% for x in body %}
+		   <li>Micronotero: {{ x.notero }} Micronoticia: {{ x.title }} <br> Fecha: {{ x.pubdate }} Enlace:  <a href="{{ x.link }}">{{ x.link }}</a></li>
+		{% endfor %}	
+	{% endif %}
+	
+	
+	{% if micros %}
+		<h3>Listado de Micronoteros</h3>
+		{% for u in micros %}
+		   <li>Micronoteros:  <a href="http://localhost:1234/noteros/{{ u.micronotero }}">{{ u.micronotero }}</a></li>
+		{% endfor %}
+
+	
+		<h3>Listado de Micronotas</h3>
+
+		{% for m in notas %}
+		   <li>Micronoticia: {{ m.title }} <br> Fecha: {{ m.pubdate }} Enlace:  <a href="{{ m.link }}">{{ m.link }}</a></li>
+		{% endfor %}
+
+	{% endif %}
+
+
+	{% if micronoteros %}
+		{% for u in micronoteros %}
+		   <li>  <a href="http://localhost:1234/noteros/{{ u.micronotero }}">{{ u.micronotero }}</a></li>
+		{% endfor %}
+
+		<form method="post" action="">
+		{% csrf_token %}
+		<p>Introduzca el nombre del micronotero que desee borrar o agregar.</p>
+		<p>Micronotero: <input type="text" name="micronotero"></p>
+		</form>
+
+		<form method="post" action="">
+		{% csrf_token %}
+		<p>Introduzca el nombre del usuario para agregar a sus micronoteros.</p>
+		<p>Usuario: <input type="text" name="copy"></p>
+		</form>
+	{% endif %}
+
+	{% if todos %}
+		<h3>  Micronoteros de la aplicacion: </h3><hr>
+		{% for x in todos %}
+		   <li><a href="/noteros/{{ x.micronotero }}">{{ x.micronotero }}</a></li>
+		{% endfor %}
+	
+	
+	{% endif %}
+
+	{% if main %}
+		<h3>  Usuarios de la aplicacion: </h3><hr>
+		{% for x in main %}
+		   <li><a href="/usuarios/{{ x.username }}">{{ x.username }}</a></li>		
+		{% endfor %}
+		
+		<h4> Canales RSS de los usuarios: </h4>
+		{% for x in main %}
+		   <li><a href="/usuarios/{{ x.username }}/feed">{{ x.username }}</a></li>
+		{% endfor %}
+	
+	{% endif %}
+
+{% endif %}
+
+
+{% endblock %}
+
+
+<!-- Firma y fecha de la página -->
+<address>Creada por Rawan Khozouz, Baza Diciembre 2010</address>
+
+</body>
+</html>
+

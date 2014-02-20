@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contents number="1" title="Basic Concepts">
+<!-- word 1 -->
+<vocabulary>
+	<word>Input</word>
+	<acronym>IN</acronym>
+	<description>In computing, input/output or I/O is the communication between an information processing system (such as a computer) and the outside world, possibly a human or another information processing system. Inputs are the signals or data received by the system, and outputs are the signals or data sent from it. The term can also be used as part of an action; to "perform I/O" is to perform an input or output operation. I/O devices are used by a person (or other system) to communicate with a computer. For instance, a keyboard or a mouse may be an input device for a computer, while monitors and printers are considered output devices for a computer. Devices for communication between computers, such as modems and network cards, typically serve for both input and output.</description>
+	<link>http://en.wikipedia.org/wiki/Input/output</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 2 -->
+<vocabulary>
+	<word>Output</word>
+	<acronym>OUT</acronym>
+	<description>In computing, input/output or I/O is the communication between an information processing system (such as a computer) and the outside world, possibly a human or another information processing system. Inputs are the signals or data received by the system, and outputs are the signals or data sent from it. The term can also be used as part of an action; to "perform I/O" is to perform an input or output operation. I/O devices are used by a person (or other system) to communicate with a computer. For instance, a keyboard or a mouse may be an input device for a computer, while monitors and printers are considered output devices for a computer. Devices for communication between computers, such as modems and network cards, typically serve for both input and output.</description>
+	<link>http://en.wikipedia.org/wiki/Input/output</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 3 -->
+<vocabulary>
+	<word>Central Processing Unit</word>
+	<acronym>CPU</acronym>
+	<description>The central processing unit (CPU, occasionally central processor unit) is the hardware within a computer system which carries out the instructions of a computer program by performing the basic arithmetical, logical, and input/output operations of the system. The term has been in use in the computer industry at least since the early 1960s. The form, design, and implementation of CPUs have changed over the course of their history, but their fundamental operation remains much the same.</description>
+	<link>http://en.wikipedia.org/wiki/Central_processing_unit</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Intel_80486DX2_top.jpg/220px-Intel_80486DX2_top.jpg</image>
+</vocabulary>
+<!-- word 4 -->
+<vocabulary>
+	<word>Primary Storage</word>
+	<acronym>None</acronym>
+	<description>Primary storage (or main memory or internal memory), often referred to simply as memory, is the only one directly accessible to the CPU. The CPU continuously reads instructions stored there and executes them as required. Any data actively operated on is also stored there in uniform manner.</description>
+	<link>http://en.wikipedia.org/wiki/Computer_data_storage#Primary_storage</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Computer_storage_types.svg/350px-Computer_storage_types.svg.png</image>
+</vocabulary>
+<!-- word 5 -->
+<vocabulary>
+	<word>Random Access Memory</word>
+	<acronym>RAM</acronym>
+	<description>Random access memory (RAM) is a form of computer data storage. A random access device allows stored data to be accessed in any order in very nearly the same amount of time for any storage location or size of memory device. A device such as a magnetic tape requires increasing time to access data stored on parts of the tape that are far from the ends. Memory devices (such as floppy discs, CDs and DVDs) can access the storage data only in a predetermined order, because of mechanical design limitations; the time to access a given part of the device varies significantly due to its physical location.</description>
+	<link>http://en.wikipedia.org/wiki/Random-access_memory</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Memory_module_DDRAM_20-03-2006.jpg/220px-Memory_module_DDRAM_20-03-2006.jpg</image>
+</vocabulary>
+<!-- word 6 -->
+<vocabulary>
+	<word>Secundary Storage</word>
+	<acronym>None</acronym>
+	<description>Secondary storage (also known as external memory or auxiliary storage), differs from primary storage in that it is not directly accessible by the CPU. The computer usually uses its input/output channels to access secondary storage and transfers the desired data using intermediate area in primary storage. Secondary storage does not lose the data when the device is powered down—it is non-volatile. Per unit, it is typically also two orders of magnitude less expensive than primary storage. Consequently, modern computer systems typically have two orders of magnitude more secondary storage than primary storage and data are kept for a longer time there. In modern computers, hard disk drives are usually used as secondary storage. The time taken to access a given byte of information stored on a hard disk is typically a few thousandths of a second, or milliseconds. By contrast, the time taken to access a given byte of information stored in random access memory is measured in billionths of a second, or nanoseconds. This illustrates the significant access-time difference which distinguishes solid-state memory from rotating magnetic storage devices: hard disks are typically about a million times slower than memory. Rotating optical storage devices, such as CD and DVD drives, have even longer access times. With disk drives, once the disk read/write head reaches the proper placement and the data of interest rotates under it, subsequent data on the track are very fast to access. As a result, in order to hide the initial seek time and rotational latency, data are transferred to and from disks in large contiguous blocks.</description>
+	<link>http://en.wikipedia.org/wiki/Computer_data_storage#Secondary_storage</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hard_disk_platter_reflection.jpg/220px-Hard_disk_platter_reflection.jpg</image>
+</vocabulary>
+<!-- word 7 -->
+<vocabulary>
+	<word>Bit</word>
+	<acronym>b</acronym>
+	<description>A bit (a contraction of binary digit) is the basic capacity of information in computing and telecommunications. A bit represents either 1 or 0 (one or zero) only. The representation may be implemented, in a variety of systems, by means of a two state device.</description>
+	<link>http://en.wikipedia.org/wiki/Bit</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 8 -->
+<vocabulary>
+	<word>Byte</word>
+	<acronym>B</acronym>
+	<description>The byte is a unit of digital information in computing and telecommunications that most commonly consists of eight bits. Historically, a byte was the number of bits used to encode a single character of text in a computer and for this reason it is the basic addressable element in many computer architectures. The size of the byte has historically been hardware dependent and no definitive standards existed that mandated the size. The de facto standard of eight bits is a convenient power of two permitting the values 0 through 255 for one byte. With ISO/IEC 80000-13, this common meaning was codified in a formal standard. Many types of applications use variables representable in eight or fewer bits, and processor designers optimize for this common usage. The popularity of major commercial computing architectures have aided in the ubiquitous acceptance of the 8-bit size.</description>
+	<link>http://en.wikipedia.org/wiki/Byte</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 9 -->
+<vocabulary>
+	<word>Binary</word>
+	<acronym>None</acronym>
+	<description>The binary numeral system, or base-2 number system, represents numeric values using two symbols: 0 and 1. More specifically, the usual base-2 system is a positional notation with a radix of 2. Because of its straightforward implementation in digital electronic circuitry using logic gates, the binary system is used internally by almost all modern computers.</description>
+	<link>http://en.wikipedia.org/wiki/Binary_numeral_system</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 10 -->
+<vocabulary>
+	<word>Plain text</word>
+	<acronym>None</acronym>
+	<description>In computing, plain text is the contents of an ordinary sequential file readable as textual material without much processing, usually opposed to formatted text and to "binary files" in which some portions must be interpreted as binary objects (encoded integers, real numbers, images, etc.). The encoding has traditionally been either ASCII, one of its many derivatives such as ISO/IEC 646 etc., or sometimes EBCDIC. Unicode-based encodings such as UTF-8 and UTF-16 are gradually replacing the older ASCII derivatives limited to 7 or 8 bit codes.</description>
+	<link>http://en.wikipedia.org/wiki/Plain_text</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Plain_text.png/350px-Plain_text.png</image>
+</vocabulary>
+<!-- word 11 -->
+<vocabulary>
+	<word>Decimal</word>
+	<acronym>None</acronym>
+	<description>The decimal numeral system (also called base ten or occasionally denary) has ten as its base. It is the numerical base most widely used by modern civilizations. Decimal notation often refers to a base-10 positional notation such as the Hindu-Arabic numeral system; however, it can also be used more generally to refer to non-positional systems such as Roman or Chinese numerals which are also based on powers of ten.</description>
+	<link>http://en.wikipedia.org/wiki/Decimal</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 12 -->
+<vocabulary>
+	<word>American Standard Code for Information Interchange</word>
+	<acronym>ASCII</acronym>
+	<description>The American Standard Code for Information Interchange is a character-encoding scheme originally based on the English alphabet. ASCII codes represent text in computers, communications equipment, and other devices that use text. Most modern character-encoding schemes are based on ASCII, though they support many additional characters.</description>
+	<link>http://en.wikipedia.org/wiki/ASCII</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ASCII_Code_Chart.svg/350px-ASCII_Code_Chart.svg.png</image>
+</vocabulary>
+<!-- word 13 -->
+<vocabulary>
+	<word>UNICODE</word>
+	<acronym>None</acronym>
+	<description>Unicode is a computing industry standard for the consistent encoding, representation and handling of text expressed in most of the world's writing systems. Developed in conjunction with the Universal Character Set standard and published in book form as The Unicode Standard, the latest version of Unicode consists of a repertoire of more than 110,000 characters covering 100 scripts, a set of code charts for visual reference, an encoding methodology and set of standard character encodings, an enumeration of character properties such as upper and lower case, a set of reference data computer files, and a number of related items, such as character properties, rules for normalization, decomposition, collation, rendering, and bidirectional display order (for the correct display of text containing both right-to-left scripts, such as Arabic and Hebrew, and left-to-right scripts). As of 2012, the most recent version is Unicode 6.1.</description>
+	<link>http://en.wikipedia.org/wiki/Unicode</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 14 -->
+<vocabulary>
+	<word>ISO-8859-ISO/IEC 8859</word>
+	<acronym>None</acronym>
+	<description>ISO/IEC 8859 is a joint ISO and IEC series of standards for 8-bit character encodings. The series of standards consists of numbered parts, such as ISO/IEC 8859-1, ISO/IEC 8859-2, etc. There are 15 parts, excluding the abandoned ISO/IEC 8859-12. The ISO working group maintaining this series of standards has been disbanded.
+ISO/IEC 8859 parts 1, 2, 3, and 4 were originally Ecma International standard ECMA-94.</description>
+	<link>http://en.wikipedia.org/wiki/ISO/IEC_8859</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 15 -->
+<vocabulary>
+	<word>Text editor</word>
+	<acronym>None</acronym>
+	<description>A text editor is a type of program used for editing plain text files. Text editors are often provided with operating systems or software development packages, and can be used to change configuration files and programming language source code.</description>
+	<link>http://en.wikipedia.org/wiki/Text_editor</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vim.png/220px-Vim.png</image>
+</vocabulary>
+<!-- word 16 -->
+<vocabulary>
+	<word>Kilobyte</word>
+	<acronym>kB</acronym>
+	<description>The kilobyte (symbol: kB) is a multiple of the unit byte for digital information. Although the prefix kilo- means 1000, the term kilobyte and symbol kB have historically been used to refer to either 1024 (210) bytes or 1000 (10^3) bytes, dependent upon context, in the fields of computer science and information technology.</description>
+	<link>http://en.wikipedia.org/wiki/Kilobyte</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 17 -->
+<vocabulary>
+	<word>Kilobit</word>
+	<acronym>kb or kbit</acronym>
+	<description>The kilobit is a multiple of the unit bit for digital information or computer storage. The prefix kilo (symbol k) is defined in the International System of Units (SI) as a multiplier of 10^3 (1 thousand), and therefore,
+1 kilobit = 10^3 bits = 1000 bits.</description>
+	<link>http://en.wikipedia.org/wiki/Kilobit</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 18 -->
+<vocabulary>
+	<word>Megabyte</word>
+	<acronym>MB or Mbyte</acronym>
+	<description>The megabyte (abbreviated as Mbyte or MB) is a multiple of the unit byte for digital information storage or transmission with three different values depending on context: 1048576 bytes (220) generally for computer memory; and one million bytes (106, see prefix mega-) generally for computer storage. In rare cases, it is used to mean 1000×1024 (1024000) bytes. The IEEE Standards Board has confirmed that mega- means 1000000, with exceptions allowed for the base-two meaning.</description>
+	<link>http://en.wikipedia.org/wiki/Megabyte</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 19 -->
+<vocabulary>
+	<word>Megabit</word>
+	<acronym>Mb or Mbit</acronym>
+	<description>The megabit is a multiple of the unit bit for digital information or computer storage. The prefix mega (symbol M) is defined in the International System of Units (SI) as a multiplier of 10^6 (1 million), and therefore: 1 megabit = 10^6bits = 1000000bits = 1000 kilobits.</description>
+	<link>http://en.wikipedia.org/wiki/Megabit</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 20 -->
+<vocabulary>
+	<word>Gigabyte</word>
+	<acronym>GB or Gbyte</acronym>
+	<description>The gigabyte is a multiple of the unit byte for digital information storage. The prefix giga means 10^9 in the International System of Units (SI), therefore 1 gigabyte is 1000000000 bytes.</description>
+	<link>http://en.wikipedia.org/wiki/Gigabyte</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 21 -->
+<vocabulary>
+	<word>Gigabit</word>
+	<acronym>Gb or Gbit</acronym>
+	<description>The gigabit is a multiple of the unit bit for digital information or computer storage. The prefix giga (symbol G) is defined in the International System of Units (SI) as a multiplier of 10^9 (1 billion, short scale), and therefore: 1 gigabit = 109 bits = 1000000000 bits.</description>
+	<link>http://en.wikipedia.org/wiki/Gigabit</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 22 -->
+<vocabulary>
+	<word>Terabyte</word>
+	<acronym>TB or Tbyte</acronym>
+	<description>The terabyte is a multiple of the unit byte digital information. The prefix tera means 10^12 in the International System of Units (SI), and therefore 1 terabyte is 1000000000000 bytes, or 1 trillion (short scale) bytes, or 1000 gigabytes. 1 terabyte in binary prefixes is 0.9095 tebibytes, or 931.32 gibibytes. </description>
+	<link>http://en.wikipedia.org/wiki/Terabyte</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 23 -->
+<vocabulary>
+	<word>Terabit</word>
+	<acronym>Tb or Tbit</acronym>
+	<description>A terabit is a multiple of the unit bit for digital information or computer storage. The prefix tera (symbol T) is defined in the International System of Units (SI) as a multiplier of 10^12 (1 trillion, short scale), and therefore: 1 terabit = 10^12bits = 1000000000000bits = 1000 gigabits.</description>
+	<link>http://en.wikipedia.org/wiki/Terabit</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 24 -->
+<vocabulary>
+	<word>Analogic (Analog signal)</word>
+	<acronym>A</acronym>
+	<description>An analog or analogue signal is any continuous signal for which the time varying feature (variable) of the signal is a representation of some other time varying quantity, i.e., analogous to another time varying signal. For example, in an analog audio signal, the instantaneous voltage of the signal varies continuously with the pressure of the sound waves. It differs from a digital signal, in which a continuous quantity is represented by a discrete signal which can only take on one of a finite number of values. Analog signals are usually electrical signals; however, mechanical, pneumatic, hydraulic, and other systems may also convey analog signals.</description>
+	<link>http://en.wikipedia.org/wiki/Analog_signal</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 25 -->
+<vocabulary>
+	<word>Digital</word>
+	<acronym>D</acronym>
+	<description>A digital system is a data technology that uses discrete (discontinuous) values. By contrast, non-digital (or analog) systems represent information using a continuous function. Although digital representations are discrete, the information represented can be either discrete, such as numbers and letters or continuous, such as sounds, images, and other measurements.</description>
+	<link>http://en.wikipedia.org/wiki/Digital</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 26 -->
+<vocabulary>
+	<word>Digitizing</word>
+	<acronym>None</acronym>
+	<description>Digitizing or digitization is the representation of an object, image, sound, document or a signal (usually an analog signal) by a discrete set of its points or samples. The result is called digital representation or, more specifically, a digital image, for the object, and digital form, for the signal. Strictly speaking, digitizing means simply capturing an analog signal in digital form.</description>
+	<link>http://en.wikipedia.org/wiki/Digitalizing</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 27 -->
+<vocabulary>
+	<word>Roshal ARchive</word>
+	<acronym>RAR</acronym>
+	<description>It is a proprietary archive file format that supports data compression, error recovery, and file spanning. It was developed by a Russian software engineer, Eugene Roshal (the first letter of his surname contributing to the name of the archive format), and is currently licensed by win.rar GmbH.
+The filename extension used by RAR is .rar for the data volume set and .rev for the recovery volume set. In previous versions, if a RAR-archive was split into many smaller files (a "multi-volume archive"), the smaller files used the extensions .rar, .r00, .r01, .r02 etc.</description>
+	<link>http://en.wikipedia.org/wiki/RAR</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 28 -->
+<vocabulary>
+	<word>Moving Picture Experts Group (MP3)</word>
+	<acronym>MPEG</acronym>
+	<description>MPEG-1 or MPEG-2 Audio Layer III, more commonly referred to as MP3, is a patented encoding format for digital audio which uses a form of lossy data compression. It is a common audio format for consumer audio storage, as well as a de facto standard of digital audio compression for the transfer and playback of music on digital audio players.</description>
+	<link>http://en.wikipedia.org/wiki/MP3</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 29 -->
+<vocabulary>
+	<word>Joint Photographic Experts Group</word>
+	<acronym>JPEG, JPG, JPE</acronym>
+	<description>In computing, JPEG is a commonly used method of lossy compression for digital photography (image). The degree of compression can be adjusted, allowing a selectable tradeoff between storage size and image quality. JPEG typically achieves 10:1 compression with little perceptible loss in image quality. JPEG compression is used in a number of image file formats. JPEG/Exif is the most common image format used by digital cameras and other photographic image capture devices; along with JPEG/JFIF, it is the most common format for storing and transmitting photographic images on the World Wide Web. These format variations are often not distinguished, and are simply called JPEG.</description>
+	<link>http://en.wikipedia.org/wiki/JPEG</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png/240px-Felis_silvestris_silvestris_small_gradual_decrease_of_quality.png</image>
+</vocabulary>
+<!-- word 30 -->
+<vocabulary>
+	<word>Filename extension</word>
+	<acronym>N</acronym>
+	<description>A filename extension is a suffix (separated from the base filename by a dot) to the name of a computer file applied to indiconeate the encoding (file format) of its contents or usage. Examples of filename extensions are .png, .exe, .dmg and .txt. Some file systems limit the length of the extension (such as the FAT file system not allowing more than three characters) while others (such as NTFS) do not. Unix filesystems accept the separator dot as a legal character.</description>
+	<link>http://en.wikipedia.org/wiki/Filename_extension</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 31 -->
+<vocabulary>
+	<word>Compress</word>
+	<acronym>None</acronym>
+	<description>Compress is a Unix shell compression program based on the LZC compression method, which is an LZW implementation using variable size pointers as in LZ78. The uncompress utility will restore files to their original state after they have been compressed using the compress utility. If no files are specified, the standard input will be uncompressed to the standard output.</description>
+	<link>http://en.wikipedia.org/wiki/Compress</link>
+	<image>None</image>
+</vocabulary>
+<!-- word 32 -->
+<vocabulary>
+	<word>Chip (microchip or integrated chip)</word>
+	<acronym>IC</acronym>
+	<description>An integrated circuit or monolithic integrated circuit (also referred to as IC, chip, or microchip) is an electronic circuit manufactured by lithography, or the patterned diffusion of trace elements into the surface of a thin substrate of semiconductor material. Additional materials are deposited and patterned to form interconnections between semiconductor devices. Integrated circuits are used in virtually all electronic equipment today and have revolutionized the world of electronics. Computers, mobile phones, and other digital home appliances are now inextricable parts of the structure of modern societies, made possible by the low cost of producing integrated circuits.</description>
+	<link>http://en.wikipedia.org/wiki/Integrated_circuit</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Microchips.jpg/220px-Microchips.jpg</image>
+</vocabulary>
+<!-- word 33 -->
+<vocabulary>
+	<word>Microprocessor</word>
+	<acronym>None</acronym>
+	<description>A microprocessor incorporates the functions of a computer's central processing unit (CPU) on a single integrated circuit (IC), or at most a few integrated circuits. It is a multipurpose, programmable device that accepts digital data as input, processes it according to instructions stored in its memory, and provides results as output. It is an example of sequential digital logic, as it has internal memory. Microprocessors operate on numbers and symbols represented in the binary numeral system.</description>
+	<link>http://en.wikipedia.org/wiki/Microprocessor</link>
+	<image>http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Intel_4004.jpg/220px-Intel_4004.jpg</image>
+</vocabulary>
+</contents>

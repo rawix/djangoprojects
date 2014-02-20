@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block question %} 
+<div id="index">
+	<center>
+		<table width=80% CELLSPACING="2">
+			<tr>
+				<!-- Menu -->
+				<td colspan="2">
+					<center><hr>						
+						<form action="/vocabulary/word/" method="POST">
+							<input type="submit" value="Go"><br>
+							<SELECT name='choosed_word_pk'>
+								{% for word in word_list %}
+									<!-- Word selected -->
+									{% ifequal word.pk word_parameter.pk %}
+										<option value="{{ word.pk }}" selected>{{ word_parameter.word }}</option>
+									{% else %}
+										<option value="{{ word.pk }}">{{ word.word }}</option>
+									{% endifequal %}
+
+								{% endfor%}
+
+							</SELECT>
+						</form>
+					</center>
+				</td>
+			</tr>
+
+			<tr>
+				
+				{% if print_word %}	
+					<td align="left" width=35% >	
+						<!-- Show the image -->
+						{% ifequal word_parameter.image "None" %}
+							<br><img alt="Image not available" WIDTH=200 HEIGTH=200 src="/static/images/not_available.gif">
+						{% else %}
+							<br><a href="{{ word_parameter.link }}" target="{{ word_parameter.word }}"><img WIDTH=200 HEIGTH=400 src="{{ word_parameter.image }}"></a>
+						{% endifequal %}
+					</td>
+					<!-- Show word's variables -->
+					<td align="left" width=65%>	
+						<br>
+						<li><strong>Word: </strong>{{ word_parameter.word }}</li> 
+						<li><strong>Acronym: </strong>{{ word_parameter.acronym }}</li>
+						<li><p align="justify"><strong>Description: </strong>{{ word_parameter.description }}
+	<a href="{{ word_parameter.link }}" target="{{ word_parameter.word }}">Read More</a></p></li>	
+					</td>
+				{% endif %}
+			</tr>
+		</table>
+	</center>
+</div>
+{% endblock %}
