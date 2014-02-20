@@ -4,6 +4,19 @@
 *****Servicios y Aplicaciones Telemáticas*****
 **********************************************
 
+
+********************************
+**** Práctica Micronoteros *****
+********************************
+
+La práctica realizada consiste en almacenar en la base de datos las micronotitas de los distintos usuarios de la red social "identi.ca". Para recoger estas notitas utilizamos un parseador. Una vez almacenadas todas las micronotitas, la app web tiene como fin organizarlas según la fecha, según nuestros contactos... y de esta manera mostrarlas según desee en cada momento el usuario.
+
+
+
+********************************
+***** Datos de evaluación ******
+********************************
+
 	Nombre del alumno:    Rawan Nazmi Issa-Khozouz
 	Nombre cuenta laboratorio:     nrawan87
 
@@ -40,3 +53,5 @@ introducir el nombre del otro usuario.
 Observaciones:  
 		El directorio pf_django_2010 contiene al directorio projecto Django con nombre: myproject
 		
+		
+
